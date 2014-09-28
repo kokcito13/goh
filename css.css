@@ -291,7 +291,7 @@ body > a {
     }
 
     #dialog .inner .content {
-        padding-top: 100px;
+        padding-top: 0px;
     }
 }
 
