@@ -1,35 +1,207 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "xhtml11.dtd">
+<!DOCTYPE html>
 <html>
 <head>
-	<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=windows-1251" />
-	<TITLE>UKRAINE.com.ua : поздравляем, сайт создан!</TITLE>
-	<link rel="stylesheet" href="http://www.ukraine.com.ua/static/parking/style.css" type="text/css" />
+
+    <title>OneGoh - РЎР°РјС‹Р№ РїСЂРѕСЃС‚РѕР№ СЃРїРѕСЃРѕР± РїСЂРѕРІРµСЂРёС‚СЊ Р·СЂРµРЅРёРµ РѕРЅ-Р»Р°Р№РЅ!</title>
+    <meta name="description" content="РРіСЂР° РїРѕР·РІРѕР»СЏРµС‚ РїСЂРѕС‚РµСЃС‚РёСЂРѕРІР°С‚СЊ РІР°С€Рё РіР»Р°Р·Р° Рё РјРѕРЅРёС‚РѕСЂ" />
+    <meta name="keywords" content="С†РІРµС‚ РјРѕРЅРёС‚РѕСЂ РіР»Р°Р·Р° РєСѓРїРёРє " />
+
+    <meta charset="UTF-8">
+
+    <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <link rel="stylesheet" href="css.css">
+    <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
+
+    <script type="text/javascript">
+        VK.init({apiId: 4567725, onlyWidgets: true});
+    </script>
 </head>
 <body>
-<div class="container">
+<div class="grid">
+    <div class="page hide" id="loading">
+        Р—Р°РіСЂСѓР·РєР°...
+    </div>
+    <div class="page hide" id="index">
+        <h1 style="margin-bottom: 0px;">РЎР°РјС‹Р№ РїСЂРѕСЃС‚РѕР№ СЃРїРѕСЃРѕР± РїСЂРѕРІРµСЂРёС‚СЊ Р·СЂРµРЅРёРµ РѕРЅ-Р»Р°Р№РЅ!</h1>
+        <div id="help">РљР°Рє РјРѕР¶РЅРѕ Р±С‹СЃС‚СЂРµРµ РЅР°Р№РґРёС‚Рµ РєРІР°РґСЂР°С‚, РѕС‚Р»РёС‡Р°СЋС‰РёР№СЃСЏ РїРѕ С†РІРµС‚Сѓ РѕС‚ РґСЂСѓРіРёС…<br>РќР°Р¶РјРёС‚Рµ РЅР° РЅРµРіРѕ<br/>РќР°РїРёС€РёС‚Рµ СЃРІРѕР№ СЂРµР·СѓР»СЊС‚Р°С‚ РІ РєРѕРјРјРµРЅС‚Р°СЂРёСЏС…</div>
+        <div class="btns">
+            <div>
+                <img src="/img/1.png" width="200px" height="200px" class="play-btn img_img">
+                <img src="/img/2.png" width="200px" height="200px" class="play-btn img_img">
+                <img src="/img/3.png" width="200px" height="200px" class="play-btn img_img">
+            </div>
+            <br/>
+            <button data-type="color" class="btn play-btn">
+                РРіСЂР°С‚СЊ
+            </button>
+            <br>
+            <div ALIGN=center>
+                <div id="ad1" style="display:none;">
+                </div>
+                <div>
+                    <div id="vk_comments"></div>
+                    <script type="text/javascript">
+                        VK.Widgets.Comments("vk_comments", {limit: 10, width: "520", attach: "*"});
+                    </script>
+                </div>
+            </div>
+        </div>
 
-	<div class="content">
-			
-		
-		
-		<div class="text">
-		<h1>Сайт www.onegoh.com готов к использованию</h1>
-		
-		Поздравляем, Ваш сайт создан и готов к использованию!<br><br>
+    </div>
+    <div class="page hide" id="room">
+        <header>
+                    <span class="lv">
+                        <span style="float:left;">РЈСЂРѕРІРµРЅСЊпјљ</span>
+                        <em>
+                            1
+                        </em>
+                    </span>
+                    <span class="time">
+                    </span>
+                    <span class="btn btn-pause">
+                        РџР°СѓР·Р°
+                    </span>
+        </header>
+        <div id="box" class="lv1">
+        </div>
+    </div>
+    <div class="page hide" id="dialog">
+        <div class="inner">
+            <div class="content share">
+                <p>
+                    РќР°РїРёС€РёС‚Рµ СЃРІРѕР№ СЂРµР·СѓР»СЊС‚Р°С‚ РІ РєРѕРјРјРµРЅС‚Р°СЂРёСЏС…
+                </p>
+                <h3></h3>
+                <div class="btn-wrap">
+                    <button class="btn btn-restart">
+                        РРіСЂР°С‚СЊ Р·Р°РЅРѕРІРѕ
+                    </button>
+                </div>
+                <br>
+                <div ALIGN=center>
+                    <div id="ad2" style="display:none;">
 
-		Чтобы на этом месте оказался Ваш сайт, удалите файл index.html в папке сайта
-		и запишите в эту папку файлы своего сайта.<br><br>
-		В разделе <a href="http://www.ukraine.com.ua/FAQ/" target="_blank">вопросы и ответы</a>, Вы можете прочесть о том, как закачать сайт на хостинг.
-		<br>
-		Если у Вас возникнут трудности &mdash; смело обращайтесь 
-		в нашу <a rel="nofollow" href="http://cp.ukraine.com.ua/support/">службу поддержки</a>.
-		
-		</div>
-		
-	</div>
+                    </div>
+                    <div>
+                        <div id="vk_comments1"></div>
+                        <script type="text/javascript">
+                            VK.Widgets.Comments("vk_comments1", {limit: 10, width: "520", attach: "*"});
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="content gameover">
+                <p>
+                    РџРѕРґРµР»РёС‚РµСЃСЊ СЃРІРѕРёРј СЂРµР·СѓР»СЊС‚Р°С‚РѕРј РІ РєРѕРјРјРµРЅС‚Р°СЂРёСЏС…
+                </p>
+                <h3></h3>
+                <div class="btn-wrap">
+                    <button class="btn btn-restart">
+                        РРіСЂР°С‚СЊ Р·Р°РЅРѕРІРѕ
+                    </button>
+                </div>
+                <br>
+                <div ALIGN=center>
+                    <div id="ad3" style="display:none;">
+                    </div>
+                    <div>
+                        <div id="vk_comments2"></div>
+                        <script type="text/javascript">
+                            VK.Widgets.Comments("vk_comments2", {limit: 10, width: "520", attach: "*"});
+                        </script>
+                    </div>
+                </div>
+            </div>
+            <div class="content pause">
+                <h3>
+                    РќР° РїР°СѓР·Рµ
+                </h3>
+                <div class="btn-wrap">
+                    <button class="btn btn-resume">
+                        РџРѕСЂРѕРґРѕР»Р¶РёС‚СЊ
+                    </button>
+                </div>
+                <br>
+                <div ALIGN=center>
+                    <div id="ad4" style="display:none;">
 
-	
-	
+                    </div>
+                    <div>
+                        <div id="vk_comments3"></div>
+                        <script type="text/javascript">
+                            VK.Widgets.Comments("vk_comments3", {limit: 10, width: "520", attach: "*"});
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </div>
+<div style="position: absolute;right: 10px;">
+    <script type="text/javascript">(function() {
+        if (window.pluso)if (typeof window.pluso.start == "function") return;
+        if (window.ifpluso==undefined) { window.ifpluso = 1;
+            var d = document, s = d.createElement('script'), g = 'getElementsByTagName';
+            s.type = 'text/javascript'; s.charset='UTF-8'; s.async = true;
+            s.src = ('https:' == window.location.protocol ? 'https' : 'http')  + '://share.pluso.ru/pluso-like.js';
+            var h=d[g]('body')[0];
+            h.appendChild(s);
+        }})();</script>
+    <div class="pluso" data-background="#ebebeb" data-options="big,square,line,vertical,counter,theme=04" data-services="vkontakte,odnoklassniki,facebook,twitter,google,moimir,email,print"></div>
+</div>
+<script src="/js/libs.min.js"></script>
+<script src="/js/main.min.js"></script>
+<script>
+    var ua = navigator.userAgent;
+    var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+            ipod = ua.match(/(iPod)(.*OS\s([\d_]+))?/),
+            iphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+            android = ua.match(/(Android);?[\s\/]+([\d.]+)?/),
+            wp = ua.match(/Windows Phone ([\d.]+)/),
+            tablet = ua.match(/Tablet/),
+            touch = ua.match(/Touch/),
+            mobile = ua.match(/Mobile/),
+            phone = ua.match(/Phone/);
+    if (!ipad && !ipod && !iphone && !android && !wp && !tablet && !touch && !mobile && !phone) {
+        $("#ad1").show();
+        $("#ad2").show();
+        $("#ad3").show();
+        $("#ad4").show();
+    }
+</script>
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter26360550 = new Ya.Metrika({id:26360550,
+                    webvisor:true,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    trackHash:true});
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+                s = d.createElement("script"),
+                f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+
+    function fb_share() {
+    }
+    function do_share() {
+    }
+
+</script>
+<noscript><div><img src="//mc.yandex.ru/watch/26360550" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 </body>
 </html>
