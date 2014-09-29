@@ -2,7 +2,7 @@
 <html>
 <head>
 
-    <title>OneGoh - Самый простой способ проверить зрение онлайн!</title>
+    <title>OneGoh - The easiest way to check your vision online!</title>
     <meta name="description" content="Игра позволяет протестировать ваши глаза и монитор" />
     <meta name="keywords" content="цвет монитор глаза купик " />
 
@@ -10,20 +10,23 @@
 
     <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
     <link rel="stylesheet" href="css.css">
-    <script type="text/javascript" src="//vk.com/js/api/openapi.js?115"></script>
-
-    <script type="text/javascript">
-        VK.init({apiId: 4567725, onlyWidgets: true});
-    </script>
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&appId=855979547760585&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <div class="grid">
     <div class="page hide" id="loading">
-        Загрузка...
+        Load...
     </div>
     <div class="page hide" id="index">
-        <h1 style="margin-bottom: 0px;margin-top: 5px;">Самый простой способ проверить зрение онлайн!</h1>
-        <div id="help">Как можно быстрее найдите квадрат, отличающийся по цвету от других<br>Нажмите на него<br/>Напишите свой результат в комментариях</div>
+        <h1 style="margin-bottom: 0px;margin-top: 5px;">The easiest way to check your vision online!</h1>
+        <div id="help">As quickly as possible get the square of a different color from the other<br>Click on it<br/>Write your score in the comments</div>
         <div class="btns">
             <div>
                 <img src="/img/1.png" width="200px" height="200px" class="play-btn img_img">
@@ -32,7 +35,7 @@
             </div>
             <br/>
             <button data-type="color" class="btn play-btn" style="margin-top: 0px;">
-                Играть
+                Play
             </button>
             <br>
             <div ALIGN=center>
@@ -48,10 +51,7 @@
                     </script>
                 </div>
                 <div>
-                    <div id="vk_comments"></div>
-                    <script type="text/javascript">
-                        VK.Widgets.Comments("vk_comments", {limit: 10, width: "520", attach: "*"});
-                    </script>
+                    <div class="fb-comments" data-href="http://onegoh.com/en.html" data-width="600px" data-numposts="5" data-colorscheme="light"></div>
                 </div>
             </div>
         </div>
@@ -60,7 +60,7 @@
     <div class="page hide" id="room">
         <header>
                     <span class="lv">
-                        <span style="float:left;">Уровень：</span>
+                        <span style="float:left;">Lvl：</span>
                         <em>
                             1
                         </em>
@@ -68,7 +68,7 @@
                     <span class="time">
                     </span>
                     <span class="btn btn-pause">
-                        Пауза
+                        Pause
                     </span>
         </header>
         <div id="box" class="lv1">
@@ -78,12 +78,12 @@
         <div class="inner">
             <div class="content share">
                 <p>
-                    Напишите свой результат в комментариях
+                    Share your result in the comments
                 </p>
                 <h3></h3>
                 <div class="btn-wrap">
                     <button class="btn btn-restart">
-                        Играть заново
+                        Play again
                     </button>
                 </div>
                 <br>
@@ -92,21 +92,18 @@
 
                     </div>
                     <div>
-                        <div id="vk_comments1"></div>
-                        <script type="text/javascript">
-                            VK.Widgets.Comments("vk_comments1", {limit: 10, width: "520", attach: "*"});
-                        </script>
+                        <div class="fb-comments" data-href="http://onegoh.com/en.html" data-width="600px" data-numposts="5" data-colorscheme="light"></div>
                     </div>
                 </div>
             </div>
             <div class="content gameover">
                 <p>
-                    Поделитесь своим результатом в комментариях
+                    Share your result in the comments
                 </p>
                 <h3></h3>
                 <div class="btn-wrap">
                     <button class="btn btn-restart">
-                        Играть заново
+                        Play again
                     </button>
                 </div>
                 <br>
@@ -124,20 +121,17 @@
                     </div>
                     <br/>
                     <div>
-                        <div id="vk_comments2"></div>
-                        <script type="text/javascript">
-                            VK.Widgets.Comments("vk_comments2", {limit: 10, width: "520", attach: "*"});
-                        </script>
+                        <div class="fb-comments" data-href="http://onegoh.com/en.html" data-width="600px" data-numposts="5" data-colorscheme="light"></div>
                     </div>
                 </div>
             </div>
             <div class="content pause">
                 <h3>
-                    На паузе
+                    On pause
                 </h3>
                 <div class="btn-wrap">
                     <button class="btn btn-resume">
-                        Продолжить
+                        Continue
                     </button>
                 </div>
                 <br>
@@ -154,10 +148,7 @@
                         </script>
                     </div>
                     <div>
-                        <div id="vk_comments3"></div>
-                        <script type="text/javascript">
-                            VK.Widgets.Comments("vk_comments3", {limit: 10, width: "520", attach: "*"});
-                        </script>
+                        <div class="fb-comments" data-href="http://onegoh.com/en.html" data-width="600px" data-numposts="5" data-colorscheme="light"></div>
                     </div>
                 </div>
             </div>
@@ -179,28 +170,10 @@
 </div>
 <div style="position: absolute;right: 50px;">
     Язык:
-    <a href="http://onegoh.com/en.html">Eng.</a>
+    <a href="http://onegoh.com">Рус.</a>
 </div>
-<script src="/js/libs.min.js"></script>
-<script src="/js/main.min.js"></script>
-<script>
-    var ua = navigator.userAgent;
-    var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
-            ipod = ua.match(/(iPod)(.*OS\s([\d_]+))?/),
-            iphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
-            android = ua.match(/(Android);?[\s\/]+([\d.]+)?/),
-            wp = ua.match(/Windows Phone ([\d.]+)/),
-            tablet = ua.match(/Tablet/),
-            touch = ua.match(/Touch/),
-            mobile = ua.match(/Mobile/),
-            phone = ua.match(/Phone/);
-    if (!ipad && !ipod && !iphone && !android && !wp && !tablet && !touch && !mobile && !phone) {
-        $("#ad1").show();
-        $("#ad2").show();
-        $("#ad3").show();
-        $("#ad4").show();
-    }
-</script>
+<script src="/js_en/libs.min.js"></script>
+<script src="/js_en/main.min.js"></script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
@@ -226,12 +199,10 @@
             d.addEventListener("DOMContentLoaded", f, false);
         } else { f(); }
     })(document, window, "yandex_metrika_callbacks");
-
     function fb_share() {
     }
     function do_share() {
     }
-
 </script>
 <noscript><div><img src="//mc.yandex.ru/watch/26360550" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 </body>
