@@ -77,9 +77,7 @@
     <div class="page hide" id="dialog">
         <div class="inner">
             <div class="content share">
-                <p>
-                    Напишите свой результат в комментариях
-                </p>
+                <p>Напишите свой результат в комментариях</p>
                 <h3></h3>
                 <div class="btn-wrap">
                     <button class="btn btn-restart">
@@ -100,14 +98,11 @@
                 </div>
             </div>
             <div class="content gameover">
-                <p>
-                    Поделитесь своим результатом в комментариях
-                </p>
+                <p>Поделитесь своим результатом в комментариях</p>
                 <h3></h3>
+                <span id="text_result" style="font-size: 15px;"></span>
                 <div class="btn-wrap">
-                    <button class="btn btn-restart">
-                        Играть заново
-                    </button>
+                    <button class="btn btn-restart">Играть заново</button>
                 </div>
                 <br>
                 <div ALIGN=center>
@@ -183,24 +178,6 @@
 </div>
 <script src="/js/libs.min.js"></script>
 <script src="/js/main.min.js"></script>
-<script>
-    var ua = navigator.userAgent;
-    var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
-            ipod = ua.match(/(iPod)(.*OS\s([\d_]+))?/),
-            iphone = !ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
-            android = ua.match(/(Android);?[\s\/]+([\d.]+)?/),
-            wp = ua.match(/Windows Phone ([\d.]+)/),
-            tablet = ua.match(/Tablet/),
-            touch = ua.match(/Touch/),
-            mobile = ua.match(/Mobile/),
-            phone = ua.match(/Phone/);
-    if (!ipad && !ipod && !iphone && !android && !wp && !tablet && !touch && !mobile && !phone) {
-        $("#ad1").show();
-        $("#ad2").show();
-        $("#ad3").show();
-        $("#ad4").show();
-    }
-</script>
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {

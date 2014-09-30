@@ -175,7 +175,8 @@ body > a {
 }
 
 #dialog {
-    background: url(../img/share.png) top right no-repeat #A74343;
+    /*background: url(../img/share.png) top right no-repeat #A74343;*/
+    background-color: #A74343;
     padding-top: 50px;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
